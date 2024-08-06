@@ -48,7 +48,7 @@ const Testimonials: React.FC = () => {
             feedback={testimonial.feedback}
             imageSrc={testimonial.imageSrc}
             zIndex={10 - index}
-            position={index === 0 ? "top-0 left-0" : "top-16 left-16"}
+            position={index === 1 ? "top-0 left-0" : "top-16 left-16"}
           />
         ))}
       </div>
